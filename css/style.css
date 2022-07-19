@@ -1,0 +1,17 @@
+/* global */
+@import "./global/header.css";
+@import "./global/global.css";
+
+/* fontes */
+@import "./utilitarios/fontes.css";
+@import "./utilitarios/cores.css";
+
+/* index */
+@import "./index/intro.css";
+
+/* utilitarios */
+@import "./utilitarios/componentes.css";
+
+
+
+
