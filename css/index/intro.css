@@ -1,3 +1,7 @@
+.introducao{
+    box-shadow: inset 0 -120px 0 #000000;
+}
+
 .introducao-site{
     display: flex;
     gap: 40px;
