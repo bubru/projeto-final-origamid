@@ -9,10 +9,7 @@
 /* index */
 @import "./index/intro.css";
 @import "./index/bicicletas.css";
+@import "./index/tecnologia.css";
 
 /* utilitarios */
 @import "./utilitarios/componentes.css";
-
-
-
-
