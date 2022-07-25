@@ -54,4 +54,8 @@
   .font-p-4 {
     font: 400 1.2rem/1.225 "Roboto", sans-serif;
   }
+
+  .font-g-3 {
+    font: 500 1.2rem/1.325 "Roboto", sans-serif;
+  }
 }
