@@ -51,6 +51,10 @@
   margin-top: 10px;
 }
 
+.tecnologia-info h3 {
+  margin-top: 10px;
+}
+
 .tecnologia-info ul {
   display: flex;
   gap: 40px;
@@ -78,6 +82,7 @@
 
   .tecnologia-conteudo {
     grid-template-columns: 1fr;
+    padding-bottom: 40px;
   }
 
   .tecnologia-info {
