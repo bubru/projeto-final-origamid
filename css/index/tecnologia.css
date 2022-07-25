@@ -1,28 +1,28 @@
-.tecnologias {
+.tecnologia {
   box-shadow: inset 0 120px 0 #000000, inset 0 -120px 0 #000000;
 }
 
-.tecnologias-conteudo {
+.tecnologia-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-.tecnologias-info {
+.tecnologia-info {
   margin-top: 180px;
   margin-bottom: 180px;
 }
 
-.tecnologias-info span,
+.tecnologia-info span,
 .link {
   text-transform: uppercase;
 }
 
-.tecnologias h1 {
+.tecnologia h1 {
   margin-top: 40px;
 }
 
-.tecnologias-info p {
+.tecnologia-info p {
   margin-top: 40px;
 }
 
@@ -47,22 +47,22 @@
   background: var(--cor-2);
 }
 
-.tecnologias-info ul p {
+.tecnologia-info ul p {
   margin-top: 10px;
 }
 
-.tecnologias-info ul {
+.tecnologia-info ul {
   display: flex;
   gap: 40px;
   margin-top: 80px;
 }
 
-.tecnologias li img {
+.tecnologia li img {
   width: 28px;
   height: 28px;
 }
 
-.tecnologias-img img {
+.tecnologia-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -72,46 +72,46 @@
 /* responsividade */
 
 @media (max-width: 800px) {
-  .tecnologias-img {
+  .tecnologia-img {
     display: none;
   }
 
-  .tecnologias-conteudo {
+  .tecnologia-conteudo {
     grid-template-columns: 1fr;
   }
 
-  .tecnologias-info {
+  .tecnologia-info {
     margin-top: 30px;
     margin-bottom: initial;
   }
-  .tecnologias {
+  .tecnologia {
     box-shadow: initial;
   }
 
-  .tecnologias h1 {
+  .tecnologia h1 {
     margin-top: 20px;
   }
 
-  .tecnologias-info p {
+  .tecnologia-info p {
     margin-top: 20px;
   }
 
-  .tecnologias-info ul {
+  .tecnologia-info ul {
     margin-top: 40px;
   }
 }
 
 @media (max-width: 600px) {
-  .tecnologias {
+  .tecnologia {
     text-align: center;
   }
 
-  .tecnologias-info ul {
+  .tecnologia-info ul {
     flex-direction: column;
     gap: 20px;
   }
 
-  .tecnologias li img {
+  .tecnologia li img {
     display: none;
   }
 }
