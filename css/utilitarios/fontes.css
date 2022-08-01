@@ -30,6 +30,10 @@
   font: 500 1.525rem/1.325 "Roboto", sans-serif;
 }
 
+.font-g-4 {
+  font: 600 1.855rem/1.325 "Poppins", sans-serif;
+}
+
 /* responsividade */
 
 @media (max-width: 800px) {
@@ -44,6 +48,11 @@
   .font-g-2 {
     font: 600 1.525rem/1.115 "Poppins", sans-serif;
   }
+
+  .font-g-4 {
+    font: 600 1.855rem/1.325 "Poppins", sans-serif;
+  }
+
 }
 
 @media (max-width: 600px) {

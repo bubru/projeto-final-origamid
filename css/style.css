@@ -11,6 +11,7 @@
 @import "./index/bicicletas.css";
 @import "./index/tecnologia.css";
 @import "./index/depoimento.css";
+@import "./index/seguros.css";
 
 /* utilitarios */
 @import "./utilitarios/componentes.css";

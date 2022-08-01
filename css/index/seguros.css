@@ -1,0 +1,54 @@
+.seguros-bg{
+    background: var(--cor-2);
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.seguros-lista {
+    margin-top: 40px;
+}
+
+.seguros-lista li{
+    color: inherit;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.seguros-planos {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.seguros-itens{
+    background: var(--cor-7);
+    border-radius: 4px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+.seguros-planos-2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.seguros-planos h4{
+    text-transform: uppercase;
+}
+
+.seguros-lista li::before{
+    content: '';
+    background-image: url("../../img/icones/lista.svg");
+    position: absolute;
+    left: -21px;
+    width: 13px;
+    height: 9px;
+}
+
